@@ -5,7 +5,7 @@ import HandModule as hm
 green = (0,255,0)
 
 cap = cv2.VideoCapture(0)
-detector = hm.Detector(detectionCon = 0.75)
+detector = hm.Detector(detectionCon = 1)
 Indexes = [4,8,12,16,20]
 while True:
     _, frame = cap.read()
